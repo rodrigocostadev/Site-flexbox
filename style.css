@@ -1,0 +1,50 @@
+body, ul, li, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: arial;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+body{
+    margin-bottom: 100px;
+    background-image: linear-gradient( to bottom, white 20%, gray );
+}
+.link{
+    background-color: red;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
